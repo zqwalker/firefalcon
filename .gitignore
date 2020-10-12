@@ -1,0 +1,7 @@
+.vscode
+venv
+dist
+firefalcon.egg-info
+dist
+NOTES.md
+test/
