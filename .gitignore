@@ -4,4 +4,6 @@ dist
 firefalcon.egg-info
 dist
 NOTES.md
-test/
+.test.env
+build/
+rbdapi-firebase-adminsdk-l788r-32c0e598a0.json
