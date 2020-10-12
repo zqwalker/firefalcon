@@ -10,3 +10,17 @@ def create_collection_query(collection, params=None):
     #         )
 
     return collection
+
+
+def parse_docs(self, docs):
+    doc_list = []
+    for doc in docs:
+        print(doc)
+        doc_list.append(
+            {
+                "id": doc.id,
+                "type": self._resource_type,
+                "attributes": self._validate_get(doc.to_dict()).dict(),
+            }
+        )
+    return doc_list

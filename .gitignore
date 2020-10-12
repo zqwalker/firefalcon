@@ -6,4 +6,7 @@ dist
 NOTES.md
 .test.env
 build/
-rbdapi-firebase-adminsdk-l788r-32c0e598a0.json
+rbdapi-firebase-adminsdk-l788r-d56f36905a.json
+*.pyc
+.gitignore
+*.pytest_cache
